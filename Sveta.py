@@ -26,7 +26,7 @@ def t3():
 def abc(n) :
   for i in range(2**n) :
     l=list(str(bin(i))[2:].zfill(n))
-    yield deff(l)
+    yield set(deff(l))
 
 def deff(Xs) :
   k=0
@@ -44,6 +44,7 @@ def t4() :
   for t in abc(5) :
     if t==set():
       yield {}
-    yield set(t)
+    else:
+      yield set(t)
 
 
