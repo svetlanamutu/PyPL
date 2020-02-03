@@ -2,6 +2,7 @@
 # Homework 1 - due 02/04/2020 at noon.
 # Professor's name: Dr. Tarau
 # Student's name: Svetlana Galuzinschii
+# Course: CSCE 5450: Programming Languages - Spring 2020
 #####################################################
 
 
